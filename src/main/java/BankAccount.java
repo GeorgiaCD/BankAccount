@@ -50,9 +50,8 @@ public class BankAccount {
     }
 
 
+//    Provide a method to allow the account to pay interest
 
-
-//    Provide a method to allow the account to pay interest (increase by 1%
 //    Attempted void but then got a bit stuck so changed to int and return balance += interestAmount
 //        public void payinterest(double interestRate){
 //        double interestAmount = balance * interestRate;

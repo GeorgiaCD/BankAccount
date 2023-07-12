@@ -58,7 +58,7 @@ public class BankAccountTest {
     }
 
 
-// 2. Test deposit() that takes in an amount and updates the balance of the BankAccount.
+// 2. Test deposit() takes in an amount and updates the balance of the BankAccount.
     @Test
     public void deposit(){
     //  when
@@ -68,7 +68,7 @@ public class BankAccountTest {
     }
 
 
-// 3. Test withdrawal() that takes in an amount and updates the balance of the BankAccount.
+// 3. Test withdrawal() takes in an amount and updates the balance of the BankAccount.
     @Test
     public void withdrawal(){
         //  when
@@ -88,7 +88,7 @@ public class BankAccountTest {
    assert bankAccount.balance == 103;
     }
 
-// had to insert this to visually see the er
+// had to insert this main to see the calculation errors
     public static void main(String[] args) {
         BankAccount bankAccount;
         bankAccount = new BankAccount("Georgia","Crawford",1234, LocalDate.of(1998,10,03));
@@ -96,27 +96,4 @@ public class BankAccountTest {
         System.out.println("your balance is " + bankAccount.payinterest(3));
     }
 
-
-
-
-
-
-
-
-
-
-
-
-//
-//        @Test
-//        public void getBalance(){
-//            //  given
-//            //  when
-//            String result = fizzBuzz.getFizzBuzz(3);
-//            //  then
-//            String expected = "Fizz";
-//            assertThat(result).isEqualTo(expected);
-//        }
-
-
-    }
+}
